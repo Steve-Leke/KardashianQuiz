@@ -1,25 +1,105 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel=“stylesheet” href=“style.css”>
-		<title>Page Title</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+		<title>Kardashian Quiz</title>
 	</head>
 	<body>
-		<div>
-			<h2>Do You have any secrets?</h2>
-			<input type="radio" id="q1c1" name="secrets">
-			<label for=”q1c1”>Nope, what you see is what you get.</label>
+		<h1 id="title">Are You Kardashian Enough?</h1>
+		<div class = "successQ">
+			<h2>How Do You Feel About Other Success?</h2>
+			<label>
+			<input type="radio" id="q1c1" name="success">
+			<span> What Can I Get Out Of It?</span>
+		  </label>
+      <br></br>
+			<label>
+			<input type="radio" id="q1c2" name="success">
+			<span> They'll Never Be Successful As Me!</span>
+		  </label>
+      <br></br>
+      <label>
+			<input type="radio" id="q1c3" name="success">
+			<span>Why Can't I Be Successful?</span>
+		  </label>
+      <br></br>
+			<label>
+			<input type="radio" id="q1c4" name="success">
+			<span> Whatever It's All Good!</span>
+		 </label>
+   </div>
 
-			<input type="radio" id="q1c2" name="secrets">
-			<label for=”q1c2”>Not really… beside the huge one I won’t talk about</label>
+	 <div class = "cityQ">
+	 	<h2>Which Is Your Favorite City?</h2>
+		<label>
+	 	<input type="radio" id="q1c1" name="favCity">
+		<span>Los Angeles</span>
+	  </label>
+	 	<br></br>
+		<label>
+	 	<input type="radio" id="q1c2" name="favCity">
+		<span>New York</span>
+	  </label>
+	 	<br></br>
+		<label>
+	 	<input type="radio" id="q1c3" name="favCity">
+		<span>London</span>
+  	</label>
+	 	<br></br>
+		<label>
+	 	<input type="radio" id="q1c4" name="favCity">
+		<span>Paris</span>
+	  </label>
+	 </div>
 
-			<input type="radio" id="q1c3" name="secrets">
-			<label for=”q1c3”>Yeah, just a few</label>
+	 <div class = "friendsQ">
+	 	<h2>How Would Your Friends Describe You?</h2>
+		<label>
+	 	<input type="radio" id="q1c1" name="friends">
+		<span>Boring.</span>
+	  </label>
+	 	<br></br>
+		<label>
+	 	<input type="radio" id="q1c2" name="friends">
+		<span>Life Of The Party!</span>
+	  </label>
+	 	<br></br>
+		<label>
+	 	<input type="radio" id="q1c3" name="friends">
+		<span>Intelligent?</span>
+	  </label>
+	 	<br></br>
+		<label>
+	 	<input type="radio" id="q1c4" name="friends">
+		<span> Sassy! </span>
+	  </label>
+	</div>
 
-			<input type="radio" id="q1c4" name="secrets">
-			<label for=”q1c4”>I can barely keep track of all the secrets I keep</label>
-
-		</div>
+	<div class = "hateQ">
+	 <h2>Who Do You Hate The Most?</h2>
+	 <label>
+	 <input type="radio" id="q1c1" name="hate">
+	 <span>Scott Disick</span>
+   </label>
+	 <br></br>
+	 <label>
+	 <input type="radio" id="q1c2" name="hate">
+	 <span>Blac Chyna</span>
+   </label>
+	 <br></br>
+	 <label>
+	 <input type="radio" id="q1c3" name="hate">
+	 <span>Rob Kardashian</span>
+   </label>
+	 <br></br>
+	 <label>
+	 <input type="radio" id="q1c4" name="hate">
+	 <span>Caitlyn Jenner</span>
+   </label>
+	</div>
+<br></br>
+<button type="button" class="button" style="vertical-align:middle" onclick="index.html"><span>Am I Kardashian Enough?</span></button>
 		<script src=“script.js”></script>
 	</body>
 </html>
