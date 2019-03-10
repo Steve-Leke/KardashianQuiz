@@ -6,6 +6,11 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
+img {
+  margin-left: 40%;
+  margin-top: 1%
+}
+
 #title {
   background-color: #ffffff;
   color: #FAD2D2;
@@ -14,14 +19,13 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
-.successQ {
+.Kardashian {
   background-color: #ffffff;
   box-shadow: 0 3px 3px 0   rgba(0,0,0,0.06);
   border-color: rgba(0,0,0,0.06);
   align-content: center;
   margin-left: 425px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 400px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -30,76 +34,13 @@ body {
   border-radius: 35px;
 }
 
-.successQ h2{
+.Kardashian h2{
   color: #FAD2D2;
   box-shadow: 10px 10px #ffffff;
   border-color:inherit;
 }
 
-.cityQ {
-  background-color: #ffffff;
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.06);
-  border-color: rgba(0,0,0,0.06)
-  text-align: left;
-  margin-left: 425px;
-  margin-top: 200px;
-  margin-right: 400px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 35px;
-}
-
-.cityQ h2{
-  color: #FAD2D2;
-  box-shadow: 10px 10px #ffffff;
-  border-color:inherit;
-}
-
-.friendsQ {
-  background-color: #ffffff;
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.06);
-  border-color: rgba(0,0,0,0.06)
-  text-align: left;
-  margin-left: 425px;
-  margin-top: 200px;
-  margin-right: 400px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 35px;
-}
-
-.friendsQ h2 {
-  color: #FAD2D2;
-  box-shadow: 10px 10px #ffffff;
-  border-color:inherit;
-}
-
-.hateQ {
-  background-color: #ffffff;
-  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.06);
-  border-color: rgba(0,0,0,0.06)
-  text-align: left;
-  margin-left: 425px;
-  margin-top: 200px;
-  margin-right: 400px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border-radius: 35px;
-}
-
-.hateQ h2 {
-  color: #FAD2D2;
-  box-shadow: 10px 10px #ffffff;
-  border-color:inherit;
-}
-
-.button {
+.button1 {
  background-color: #ffffff; /* Green */
  border: none;
  color: #FAD2D2;
@@ -109,21 +50,19 @@ body {
  display: inline-block;
  font-size: 16px;
  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.06);
- margin-left: 42%;
+ margin-left: 46%;
  margin-top: 50px;
  margin-bottom: 50px;
 }
 
-
-
-.button span {
+.button1 span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.button1 span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -132,11 +71,11 @@ body {
   transition: 0.5s;
 }
 
-.button:hover span {
+.button1:hover span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.button1:hover span:after {
   opacity: 1;
   right: 0;
 }
