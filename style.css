@@ -183,4 +183,5 @@ label span:after {
 
 label input:checked+span:after {
   opacity: 1;
+
 }
