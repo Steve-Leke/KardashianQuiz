@@ -3,7 +3,7 @@ body {
   height: 100vh;
   background-size: cover;
   background-position: center;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans';
 }
 
 #title {
@@ -183,5 +183,14 @@ label span:after {
 
 label input:checked+span:after {
   opacity: 1;
+}
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #7b7d7f;
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
